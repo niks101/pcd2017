@@ -1,0 +1,91 @@
+
+Notes for Module 1. 
+
+Variables and Expressions.
+
+Variables
+Variable has type, name, size, range, address, value, scope
+
+The type can be builtin or User defined types.
+Common builtin types are
+
+char, int, long, long long and unsigned versions.
+float, double
+
+Exercise:
+Complete the following table.
+
+Type  Size  Range
+
+User defined types are
+arrays, structures, enums, unions.
+
+Complete the following table
+Syntax for
+Types  Creation Intialization Access 
+
+Given any problem you should be able to identify the input variables
+variables to hold intermediate results and Output variables.
+
+
+Expressions are formed using operators and operands.
+Operators can be Arithmetic,  Logical,      Relations        and Bitwise.
+                 +,-,/,*,%     && || !      <,>,!=,==        & | ^ ~
+Operands can be Constants, Variables, Function calls and expressions.
+Operator Precedence is the order of evaluation of an expressions.
+
+Write Operator precedence table here.
+Given an expression bracked the expression based on operator precedence rules.
+
+https://www.tutorialspoint.com/cprogramming/c_operators.htm
+
+A c program consists of
+
+Preprocessor directives used to include header files
+Other Preprocessor directives
+typedefinitions 
+global data
+user defined functions 
+main function 
++
+standard libraries (of functions)
++
+third party libraries (of functions).
+
+A function definition consists of return type, name and argument list and a block.
+A function declaration(Prototype/Signature) consists of return type, name and argument list and a ;
+A function declaration is used to verify if the function call is passing arguments with right type.
+  Arguments can be passed by value or passed by reference using pointers.
+    Pointers hold address.
+    & - address of 
+    * - Content of
+    
+Pass by value
+Pass by reference
+
+Examples.
+
+A block consists of statements.
+Statements can be 
+
+Assignment Statments
+Function calls
+Control statments
+
+Control statements can be
+if, if else, if else if else, while, do while, for, goto return, break, continue.
+
+A program takes input computes and outputs data.
+So most pograms have input functions, compute functions and output functions and ofcourse main function.
+
+Another way to look at it
+
+C program be broken into tokens.
+
+Tokens can be identifiers, punctuators, keyworks, constants, literals
+https://www.youtube.com/watch?v=ijxFU1VyWnc
+
+Example of a simple C program to find area of a triangle.
+
+
+
